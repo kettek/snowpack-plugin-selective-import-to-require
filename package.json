@@ -1,6 +1,6 @@
 {
   "name": "snowpack-plugin-selective-import-to-require",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A Snowpack plugin for selectively converting imports to requires based on module names.",
   "main": "plugin.js",
   "scripts": {
