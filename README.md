@@ -1,5 +1,5 @@
 # snowpack-plugin-selective-import-to-require
-Selectively convert `import` calls to `require` calls. Useful for running snowpack with Electron.
+Selectively convert `import` calls into `require` calls. Useful for running snowpack with Electron.
 
 ```
 npm install --save-dev snowpack-plugin-selective-import-to-require

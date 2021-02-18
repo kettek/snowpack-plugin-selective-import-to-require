@@ -1,11 +1,25 @@
 {
   "name": "snowpack-plugin-selective-import-to-require",
-  "version": "0.1.1",
-  "description": "snowpack plugin for selecting converting imports to require based on the module name",
+  "version": "0.1.2",
+  "description": "A Snowpack plugin for selectively converting imports to requires based on module names.",
   "main": "plugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "snowpack",
+    "snowpack-plugin",
+		"import",
+		"require",
+    "electron",
+    "node",
+    "module"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kettek/snowpack-plugin-selective-import-to-require.git"
+  },
+  "homepage": "https://github.com/kettek/snowpack-plugin-selective-import-to-require",
   "author": "Ketchetwahmeegwun T. Southall",
   "license": "MPL-2.0",
   "dependencies": {}
