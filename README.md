@@ -12,8 +12,8 @@ module.exports = {
     [
       "snowpack-plugin-selective-import-to-require",
       {
-				"modules": ["os", "child_process"],
-			  "types": ['.js'],
+        "modules": ["os", "child_process"],
+        "types": ['.js'],
       }
     ]
   ]
@@ -43,8 +43,8 @@ module.exports = {
     [
       "snowpack-plugin-selective-import-to-require",
       {
-				"modules": builtinModules,
-			  "types": ['.js'],
+        "modules": builtinModules,
+        "types": ['.js'],
       }
     ]
   ]
