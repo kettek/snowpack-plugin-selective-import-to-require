@@ -26,6 +26,7 @@ module.exports = {
 | :----------------- | :--------- | :---------- |
 | `modules` | `string[]` | An array of module names to match against, such as `['os', 'child_process']`.
 | `types`   | `string[]` | (optional) By default, this plugin matches against `['.js']`. Provide an array if you need to match other extensions.
+| `externalize` | `boolean` | (optional) By default, this plugin will insert all modules in `modules` into snowpack's `packageOptions.external` array. Set to false if modules should not be externalized.
 
 #### Match Built-in Node Modules
 It may be convenient to match all built-in node modules.
